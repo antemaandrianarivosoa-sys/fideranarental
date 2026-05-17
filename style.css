@@ -29,7 +29,7 @@ body {
 .wheel {
     width: 70px;
     height: 70px;
-    background: url(roue.png) no-repeat center center/cover;
+    background: url('roue.jpeg') no-repeat center center/cover;
     animation: spin 1s linear infinite;
 }
 
