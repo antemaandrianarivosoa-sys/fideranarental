@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nos Véhicules</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="véhicules.css">
+</head>
+<body>
+    <header>
+         <div class="logo">
+            FIDERANA RENTAL
+        </div>
+
+        <nav>
+            <a href="accueil.html">Accueil</a>
+            <a href="véhicules.html">Nos Véhicules</a>
+            <a href="reservation.html">Réservation</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        
+    </header>
+    <div class="page-title">
+        <h1>Nos véhicules 4X4</h1>
+        <p>Des véhicules robustes et entièrement équipés pour toutes les routes de madagascar </p>
+    </div>
+    <div class="vehicles-container">
+        
+        <div class="vehicle-card">
+            <div class="slider-wrapper">
+                <div class="slider" id="slider-toyota">
+                    <img src="/home/antema/Images/toyota-lc79-1.jpeg" alt="Toyota Land Cruiser LC79-Vue extérieure">
+                    <img src="/home/antema/Images/toyota-lc79-2.jpeg" alt="Toyota Land Cruiser LC79-Intérieur">
+                    <img src="/home/antema/Images/toyota-lc79-3.jpeg" alt="Toyota Land Cruiser LC79-Vue latérale">
+                </div>
+                <button class="slider-btn prev" onclick="moveSlide('slider-toyota',-1)">&#8249</button>
+                <button class="slider-btn next" onclick="moveSlide('slider-toyota',1)">&#8250</button>
+                <div class="slider-dots" id="dots-toyota">
+                    <button class="slider-dot active" onclick="goToSlide('slider-toyota',0)"></button>
+                    <button class="slider-dot" onclick="goToSlide('slider-toyota',1)"></button>
+                    <button class="slider-dot" onclick="goToSlide('slider-toyota',2)"></button>
+                </div>
+            </div>
+            <div class="vehicle-info">
+                <span class="vehicle-badge">Le plus robuste</span>
+                <h2>Toyota Land Cruiser LC79</h2>
+                <p class="subtitle">Le 4X4 incontournable pour les terrains les plus difficiles</p>
+                <div class="specs-grid">
+                    <div class="spec-item">
+                        <div class="spec-icon">&#128663</div>
+                        <div class="spec-label">Moteur</div>
+                        <div class="spec-value">4.2L Diesel</div>
+                    </div>
+                    <div class="spec-item">
+                        <div class="spec-icon">&#9981</div>
+                        <div class="spec-label">Consommation</div>
+                        <div class="spec-value">12L/100km</div>
+                    </div>
+                    <div class="spec-item">
+                        <div class="spec-icon">&#128101</div>
+                        <div class="spec-label">Places</div>
+                        <div class="spec-value">7 places</div>
+                    </div>
+                    <div class="spec-item">
+                        <div class="spec-icon">&#128100</div>
+                        <div class="spec-label">Chauffeur</div>
+                        <div class="spec-value">Inclus</div>
+                    </div>
+                    <div class="spec-item">
+                        <div class="spec-icon">&#128739</div>
+                        <div class="spec-label">Transmission</div>
+                        <div class="spec-value">4X4 Intégral</div>
+                    </div>
+                    <div class="spec-item">
+                        <div class="spec-icon">&#128230</div>
+                        <div class="spec-label">Coffre</div>
+                        <div class="spec-value">Grand volume</div>
+                    </div>
+                </div>
+                <div class="vehicle-footer">
+                    <div class="price">
+                        <span class="amount">300000 Ariary</span>
+                        <span class="periode">/jour</span>
+                    </div>
+                    <a href="reservation.html" class="btn-reserve">Réserver ce véhicule</a>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="vehicle-card">
+            <div class="slider-wrapper">
+                <div class="slider" id="slider-pajero">
+                    <img src="/home/antema/Images/mitsubishi-pajero-1.jpeg" alt="Mitsubishi Pajero-Vue extérieure">
+                    <img src="/home/antema/Images/mitsubishi-pajero-2.jpeg" alt="Mitsubishi Pajero-Intérieur">
+                    <img src="/home/antema/Images/mitsubishi-pajero-3.jpeg" alt="Mitsubishi Pajero-Vue arrière">
+                </div>
+                <button class="slider-btn prev" onclick="moveSlide('slider-pajero',-1)">&#8249</button>
+                <button class="slider-btn next" onclick="moveSlide('slider-pajero',1)">&#8250</button>
+                <div class="slider-dots" id="dots-pajero">
+                    <button class="slider-dot active" onclick="goToSlide('slider-pajero',0)"></button>
+                    <button class="slider-dot" onclick="goToSlide('slider-pajero',1)"></button>
+                    <button class="slider-dot" onclick="goToSlide('slider-pajero',2)"></button>
+                </div>
+            </div>
+            <div class="vehicle-info">
+                <span class="vehicle-badge">Confort premium</span>
+                <h2>Mitsubishi Pajero</h2>
+                <p class="subtitle">Confort etperformance pour vos trajet long</p>
+                <div class="specs-grid">
+                    <div class="spec-item">
+                        <div class="spec-icon">&#128663</div>
+                        <div class="spec-label">Moteur</div>
+                        <div class="spec-value">3.2L DID Diesel</div>
+                    </div>
+                    <div class="spec-item">
+                        <div class="spec-icon">&#9981</div>
+                        <div class="spec-label">Consommation</div>
+                        <div class="spec-value">10L/100km</div>
+                    </div>
+                    <div class="spec-item">
+                        <div class="spec-icon">&#128101</div>
+                        <div class="spec-label">Places</div>
+                        <div class="spec-value">5 places</div>
+                    </div>
+                    <div class="spec-item">
+                        <div class="spec-icon">&#128100</div>
+                        <div class="spec-label">Chauffeur</div>
+                        <div class="spec-value">Inclus</div>
+                    </div>
+                    <div class="spec-item">
+                        <div class="spec-icon">&#128739</div>
+                        <div class="spec-label">Transmission</div>
+                        <div class="spec-value">4X4 Super Select</div>
+                    </div>
+                    <div class="spec-item">
+                        <div class="spec-icon">&#127748</div>
+                        <div class="spec-label">Toit ouvrant</div>
+                        <div class="spec-value">Oui</div>
+                    </div>
+                </div>
+                <div class="vehicle-footer">
+                    <div class="price">
+                        <span class="amount">280000 Ariary</span>
+                        <span class="periode">/jour</span>
+                    </div>
+                    <a href="reservation.html" class="btn-reserve">Réserver ce véhicule</a>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="vehicle-card">
+            <div class="slider-wrapper">
+                <div class="slider" id="slider-galloper">
+                    <img src="/home/antema/Images/hyundai-galloper-1.jpeg" alt="Hyundai Galloper 2-Vue extérieure">
+                    <img src="/home/antema/Images/hyundai-galloper-2.jpeg" alt="Hyundai Galloper-Intérieur">
+                    <img src="/home/antema/Images/hyundai-galloper-3.jpeg" alt="Hyundai Galloper-Vue latérale">
+                </div>
+                <button class="slider-btn prev" onclick="moveSlide('slider-galloper',-1)">&#8249</button>
+                <button class="slider-btn next" onclick="moveSlide('slider-galloper',1)">&#8250</button>
+                <div class="slider-dots" id="dots-galloper">
+                    <button class="slider-dot active" onclick="goToSlide('slider-galloper',0)"></button>
+                    <button class="slider-dot" onclick="goToSlide('slider-galloper',1)"></button>
+                    <button class="slider-dot" onclick="goToSlide('slider-galloper',2)"></button>
+                </div>
+            </div>
+            <div class="vehicle-info">
+                <span class="vehicle-badge">Economique</span>
+                <h2>Hyundai Galloper 2</h2>
+                <p class="subtitle">Fiable et économique pour toutes vos expédition</p>
+                <div class="specs-grid">
+                    <div class="spec-item">
+                        <div class="spec-icon">&#128663</div>
+                        <div class="spec-label">Moteur</div>
+                        <div class="spec-value">2.5L TCI Diesel</div>
+                    </div>
+                    <div class="spec-item">
+                        <div class="spec-icon">&#9981</div>
+                        <div class="spec-label">Consommation</div>
+                        <div class="spec-value">11L/100km</div>
+                    </div>
+                    <div class="spec-item">
+                        <div class="spec-icon">&#128101</div>
+                        <div class="spec-label">Places</div>
+                        <div class="spec-value">7 places</div>
+                    </div>
+                    <div class="spec-item">
+                        <div class="spec-icon">&#128100</div>
+                        <div class="spec-label">Chauffeur</div>
+                        <div class="spec-value">Inclus</div>
+                    </div>
+                    <div class="spec-item">
+                        <div class="spec-icon">&#128739</div>
+                        <div class="spec-label">Transmission</div>
+                        <div class="spec-value">4X4 à ragage</div>
+                    </div>
+                    <div class="spec-item">
+                        <div class="spec-icon">&#128230</div>
+                        <div class="spec-label">Coffre</div>
+                        <div class="spec-value">Très spacieux</div>
+                    </div>
+                </div>
+                <div class="vehicle-footer">
+                    <div class="price">
+                        <span class="amount">250000 Ariary</span>
+                        <span class="periode">/jour</span>
+                    </div>
+                    <a href="reservation.html" class="btn-reserve">Réserver ce véhicule</a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <footer>
+        &copy;2026 Fiderana Rental-Tous droits réservés
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

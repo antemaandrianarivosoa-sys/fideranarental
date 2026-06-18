@@ -1,0 +1,73 @@
+.container{
+max-width:1100px;
+margin:50px auto;
+padding:20px;
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:40px;
+}
+
+.info{
+background:#102344;
+padding:30px;
+border-radius:10px;
+}
+
+.info h2{
+color:#ff9800;
+margin-bottom:20px;
+}
+
+.info p{
+margin-bottom:15px;
+}
+
+.formulaire{
+background:#102344;
+padding:30px;
+border-radius:10px;
+}
+
+.formulaire h2{
+color:#ff9800;
+margin-bottom:20px;
+}
+
+input, textarea{
+width:100%;
+padding:12px;
+margin-bottom:15px;
+border:none;
+border-radius:5px;
+}
+
+textarea{
+height:120px;
+}
+
+button{
+background:#ff9800;
+color:white;
+padding:12px 30px;
+border:none;
+border-radius:5px;
+cursor:pointer;
+}
+
+button:hover{
+background:#e68a00;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#08172f;
+margin-top:40px;
+}
+
+@media(max-width:768px){
+.container{
+grid-template-columns:1fr;
+}
+}
+
