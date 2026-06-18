@@ -1,3 +1,11 @@
+body{
+    background-image: url("fond.jpeg");
+    background-size: cover;
+    background-position: center;
+    color:white;
+    padding-top:90px;
+    min-height:100vh;
+}
 .hero{
     flex: 1;
     min-height: 100vh;
